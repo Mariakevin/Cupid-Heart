@@ -1,0 +1,59 @@
+.grid {
+  display:flex;
+  flex-wrap: wrap;
+  height: 600px; /* left, right line */
+  min-width: 600px; /*top, bottom line*/
+  /*margin-left:150px;, can be changed if needed*/
+  margin-top: 100px;  /* 150 px is the correct size*/ 
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 10px;
+  color: #7c7c7c;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(255, 63, 63) inset, 0 1px 0 #fff;
+  }
+  
+  .grid div {
+    height: 70px;
+    width: 70px;
+  }
+  
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin-top: -10px;
+  }
+  
+  .invisible {
+    background-color: white;
+  }
+  
+  body {
+    margin: 0;
+    background-image: url("images/abg.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 100vh;
+    display:flex;
+  }
+
+  .ScoreBoard {
+    
+    background-color:rgba(199, 142, 255, 0.5);
+    border-radius: 35px;
+    margin-top:25px;  /*top fixed */ 
+    margin-left: 850px;
+    width: 200px;
+    height: 100px;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color:white;
+  }
